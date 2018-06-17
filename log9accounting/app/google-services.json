@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342636716182",
+    "firebase_url": "https://log9accounting.firebaseio.com",
+    "project_id": "log9accounting",
+    "storage_bucket": "log9accounting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342636716182:android:2fca6c309c28cd68",
+        "android_client_info": {
+          "package_name": "com.example.android.log9accounting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342636716182-1fhk6177ia7n1ikvlae0lt7f7bcup7u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.log9accounting",
+            "certificate_hash": "668477062aa12a35e7ec0e577bc1b225b4778170"
+          }
+        },
+        {
+          "client_id": "342636716182-tn48ol9b470h87gdgs0fn28r79efo3eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA9fgiBy6bQjiHuO7v2k_z-9zr8eOc4Zk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342636716182-tn48ol9b470h87gdgs0fn28r79efo3eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
