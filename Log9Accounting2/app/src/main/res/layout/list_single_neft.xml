@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Item 1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txt_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/magnificent"
+            android:text="Amount"
+            android:textColor="#039BE5"/>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Date"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Description"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_type"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Type"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_category"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Category"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Head"
+            android:textColor="#000"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_reimburse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/magnificent"
+            android:text="Reimburse"
+            android:textColor="#000"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/transactionImage"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="end"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:paddingTop="2dp"/>
+
+</LinearLayout>
